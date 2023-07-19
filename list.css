@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    cursor: default;
+}
+* a{
+    cursor: pointer;
+}
+nav {
+    width: 100%;
+    background-color: rgb(116 209 229);
+    margin-bottom: 0px
+}
+
+.logo img {
+    height: 155px;
+    width: 300px;
+    display: block;
+}
+.list{
+    padding :50px;
+    margin: 0px;
+    font-size: 1.5rem;
+    background-color:  rgb(242 237 198);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.list li{
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+}
+.list a:hover{
+    text-shadow: 3px 3px 3px rgb(143, 141, 141);
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(86, 158, 174);
+    width: 100%;
+}
+
+.flogo img {
+    height: 155px;
+    width: 300px;
+    display: block;
+    /* display: inline-flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+#abtus {
+    display: none;
+}
+
+#lvnote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+}
+#lvnote p{
+    margin: 0px;
+}
+@media(max-width:450px){
+    .list{
+        padding: 15px;
+    }
+}

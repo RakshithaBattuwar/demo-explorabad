@@ -1,0 +1,267 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    cursor: default;
+}
+* a{
+    cursor: pointer;
+}
+a img{
+    cursor: pointer;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(116 209 229);
+    margin-bottom: 0px
+}
+
+.logo img {
+    height: 155px;
+    width: 300px;
+    display: block;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(242 237 198);
+}
+
+.maincon {
+    margin: 20px;
+}
+
+#intro {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background: burlywood url('https://static.toiimg.com/photo/69144907/GettyImages-518256134.jpg?width=748&resize=4');
+    background-size: cover;
+    background-blend-mode: darken;
+    color: whitesmoke;
+    font-size: 60px;
+    align-items: end;
+    justify-content: center;
+    margin-left: 0px;
+
+}
+
+#slogan {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.reslo {
+    display: none;
+}
+
+#rgn {
+    padding: 10px;
+}
+
+#rgn h3 {
+    font-size: 2rem;
+}
+
+#rgn p {
+    color: rgb(108 105 105);
+}
+
+
+.char {
+    padding: 8px;
+    display: flex;
+}
+
+.char p {
+    display: flex;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    transition: all 0.05s ;
+}
+
+.char p:hover {
+    transform: scale(1.3);
+    translate: 0px -15px;
+}
+
+#poption {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+#poption a {
+    height: 235px;
+    width: 279px;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: all 0.1s;
+    background: beige var(--show);
+    background-size: cover;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#poption p {
+    display: none;
+}
+
+#poption a:hover {
+    transform: scale(1.1);
+}
+
+#bycat {
+    display: flex;
+    flex-direction: column;
+}
+
+#cat {
+    padding: 10px;
+}
+
+#cat h3 {
+    font-size: 2rem;
+}
+
+#cat p {
+    color: rgb(108 105 105);
+}
+
+#coption {
+    display: flex;
+    flex-direction: row;
+}
+
+#bycat a {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    border-radius: 155px;
+    margin: 20px;
+    background: beige var(--showc);
+    background-size: cover;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.3s;
+}
+
+
+#bycat a:hover {
+    box-shadow: 3px 3px 10px black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(86, 158, 174);
+    width: 100%;
+}
+
+.flogo img {
+    height: 155px;
+    width: 300px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#abtus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+#abtus a {
+    text-decoration: none;
+    color: beige;
+}
+
+#abtus a:hover {
+    color: rgb(159, 158, 158);
+}
+
+#lvnote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+}
+#lvnote p{
+    margin: 0px;
+}
+
+
+@media(max-width:1500px) {
+    #byplace {
+        overflow: scroll;
+        width: 100%;
+        margin-left: 0px;
+    }
+    #poption{
+        width: 1500px;
+    }
+    #poption a{
+        float:left;
+        justify-content: center;
+    }
+
+    #slogan {
+        display: none;
+    }
+    .reslo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .reslo p{
+        display: flex;
+        text-align: center;
+    }
+    #bycat{
+        overflow: scroll;
+        width: 100%;
+        margin-left: 0px;
+        
+    }
+    #coption{
+        width: 900px;
+    }
+    #coption a{
+        float:left;
+        justify-content: center;
+        transition: box-shadow 0.3s;
+    }
+    #coption a:hover {
+        box-shadow: 3px 3px 10px black;
+    }
+    .opcon{
+        margin: 15px;
+    }
+}
+#info{
+    padding: 20px;
+    display: flex;
+}
